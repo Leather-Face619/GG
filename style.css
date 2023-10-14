@@ -1,0 +1,203 @@
+@font-face {
+    font-family: kajiro;
+    src: url(./Kajiro\ Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+  }
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+   
+}
+
+#back {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(81, 255, 0); */
+}
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    /* background-color: rgb(59, 185, 47); */
+}
+
+#workarea {
+    position: relative;
+    width: 86vw;
+    margin: 5px auto;
+    max-width: 1920px;
+    height: 99vh;
+    /* border: 1px solid rgb(38, 0, 255); */
+}
+
+#nav {
+    pointer-events: all;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 4px 5px;
+    justify-content: space-between;
+    /* background-color: gray; */
+}
+
+#Lnav,
+#Rnav {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+#Lnav img {
+
+    height: 75px;
+}
+#aaa {
+    
+    margin-left: -21px;
+}
+
+#nav a {
+    gap: -4px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.7vw;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-image: url(https://i.gifer.com/EAoe.gif);
+    /* background-position: center; */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#Hero {
+    display: flex;
+    position: absolute;
+    top: 57%;
+    left: 0;
+    transform: translate(0%, -50%);
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
+
+#heroL {
+    min-width: 45%;
+}
+    #logodiv{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+         height: 5.3vw;
+         overflow: hidden;
+         margin: 0px 0px;
+        /* background-color: red; */
+     }
+     #logodiv img:nth-child(1){
+        top: 0;
+        }
+        #logodiv img {
+            /* background-color: pink; */
+            position: absolute;
+            top: 100%;
+           
+        }
+
+
+
+
+#heroL .elem {
+   position: relative;
+    height: 8vw;
+    overflow: hidden;
+    margin: 10px 0px;
+   
+}
+.elem h1:nth-child(1){
+top: 0;
+}
+.elem h1 {
+    position: absolute;
+    top: 100%;
+    font-family: kajiro;
+    letter-spacing: 2px;
+    line-height: .9;
+    font-weight: 100;
+    font-size: 10vw;
+    background-image: url(https://media.tenor.com/vDpI1mQGaHAAAAAC/blue-background-background.gif);
+    /* background-position: center; */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#heroL button {
+    pointer-events: all;
+    margin: 10px 0px;
+    font-size: 3vw;
+    font-family: kajiro;
+    color: aliceblue;
+    background-image: url(https://media.tenor.com/5RKB-LuSHb0AAAAC/fire.gif);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+}
+
+#heroR {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-end;
+    width: 20%;
+/* background-color: rgb(0, 17, 255); */
+}
+#heroR p{
+    text-align: right;
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+#imgdiv{
+    background-image: url(https://i.pinimg.com/originals/ac/8f/61/ac8f610d390a504026b5e7bd2b67818f.gif);
+    background-position: center;
+    background-size: cover;
+    width: 59%;
+    margin: 0px auto;
+    border-radius: 15px;
+    
+    height: 171px;
+}
+#heroR :nth-child(3){
+  
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
